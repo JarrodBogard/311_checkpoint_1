@@ -1,5 +1,7 @@
+const users = require("./index")
+
 module.exports = {
-  "id": 99,
+  "id": users.length + 1,
   "name": "Brett Smith",
   "username": "brsmith",
   "email": "brsmith@june.biz",
